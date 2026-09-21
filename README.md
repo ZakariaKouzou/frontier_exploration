@@ -42,7 +42,7 @@ Clone this into the `src/` folder of an existing (or new) ROS 2 workspace:
 
 ```bash
 cd ~/your_ws/src
-git clone https://github.com/<your-username>/frontier_exploration.git
+git clone https://github.com/ZakariaKouzou/frontier_exploration.git
 ```
 
 ### 2. Install dependencies

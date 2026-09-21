@@ -1,0 +1,3 @@
+bool exploration_complete
+int32 num_frontiers_remaining
+string reason

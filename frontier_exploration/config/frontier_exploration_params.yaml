@@ -1,0 +1,27 @@
+frontier_detector_node:
+  ros__parameters:
+    map_topic: /map
+    marker_topic: /frontier_markers
+    frontier_topic: /frontiers
+    status_topic: /exploration_status
+    global_frame: map
+    robot_base_frame: base_link
+    free_threshold: 50
+    occupied_threshold: 65
+    min_frontier_size: 25
+    wall_clearance_cells: 1
+    distance_weight: 1.0
+    size_weight: 1.0
+    update_period_sec: 1.0
+
+frontier_goal_selector:
+  ros__parameters:
+    frontier_topic: /frontiers
+    status_topic: /exploration_status
+    action_server_name: /navigate_to_pose
+    global_frame: map
+    robot_base_frame: base_link
+    local_radius: 3.0
+    min_decent_size: 5
+    goal_reached_distance: 0.5
+    check_distance_period: 0.1

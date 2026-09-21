@@ -1,6 +1,6 @@
 # Autonomous Frontier-Based Exploration
 
-Autonomous exploration for a differential-drive mobile robot running on ROS 2. The robot builds its own map of an unknown environment by repeatedly detecting the boundaries between known free space and unexplored space ("frontiers"), picking the most promising one, and navigating to it — with no human-provided waypoints.
+Autonomous exploration for a mobile robot running on ROS 2. The robot builds its own map of an unknown environment by repeatedly detecting the boundaries between known free space and unexplored space ("frontiers"), picking the most promising one, and navigating to it — with no human-provided waypoints.
 
 The approach follows classic frontier-based exploration (Yamauchi, 1997), with frontier clustering done via BFS/flood-fill over the occupancy grid (Topiwala et al., 2018).
 
@@ -8,10 +8,7 @@ The approach follows classic frontier-based exploration (Yamauchi, 1997), with f
 
 ## DEMO 
 
-
-
 https://github.com/user-attachments/assets/d182db0c-87ae-473a-9d77-e7d453870db9
-
 
 
 ## How it works

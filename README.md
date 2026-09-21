@@ -4,15 +4,15 @@ Autonomous exploration for a differential-drive mobile robot running on ROS 2. T
 
 The approach follows classic frontier-based exploration (Yamauchi, 1997), with frontier clustering done via BFS/flood-fill over the occupancy grid (Topiwala et al., 2018).
 
-<!-- 
-TODO: Add a demo image here, e.g.:
-![Robot exploring](media/exploration_demo.png)
--->
+<img width="1247" height="825" alt="Screenshot 2026-09-21 205545" src="https://github.com/user-attachments/assets/1929b80a-0ecb-43e3-862d-dc856dbfd729" />
 
-<!--
-TODO: Add a demo video here, e.g.:
-[![Watch the demo](media/video_thumbnail.png)](https://link-to-video)
--->
+## DEMO 
+
+
+
+https://github.com/user-attachments/assets/d182db0c-87ae-473a-9d77-e7d453870db9
+
+
 
 ## How it works
 
